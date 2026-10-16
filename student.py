@@ -20,8 +20,8 @@ def display_result(name, marks, grade):
     print("Marks: ",marks)
     print("Grade: ",grade)
 
-name = chr(input(sys.argv[1]))
-marks = int(input(sys.argv[2]))
+name = sys.argv[1]
+marks = sys.argv[2]
 
 if name == " ":
     name = "Student"
